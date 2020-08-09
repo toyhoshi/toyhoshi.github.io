@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>toyhoshi.github.io</title>
+    <link href="https://toyhoshi.github.io/feed.xml" rel="self" />
+    <link href="https://toyhoshi.github.io" />
+    <updated>1970-01-01T01:00:00+01:00</updated>
+    <author>
+        <name>Mr Toyhoshi</name>
+    </author>
+    <id>https://toyhoshi.github.io</id>
+
+    <entry>
+        <title>Cloud, where are you ?</title>
+        <author>
+            <name>Mr Toyhoshi</name>
+        </author>
+        <link href="https://toyhoshi.github.io/cloud-where-are-you.html"/>
+        <id>https://toyhoshi.github.io/cloud-where-are-you.html</id>
+
+        <updated>2020-08-09T16:22:15+02:00</updated>
+            <summary>
+                <![CDATA[
+                     What is the purpose of the blog? Why it was created? The post is about answers that change over&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p class="align-center"><img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXLrst9S_iKjPIQnxMxVQONXNfW7ja8xGm6g&amp;usqp=CAU" data-is-external-image="true"  alt="Let The Adventure Begin Coffee Mug - New Journey Gift ..."></p>
+<p>What is the purpose of the blog? Why it was created? The post is about answers that change over time. </p>
+            ]]>
+        </content>
+    </entry>
+</feed>

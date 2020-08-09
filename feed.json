@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "toyhoshi.github.io",
+    "description": "",
+    "home_page_url": "https://toyhoshi.github.io",
+    "feed_url": "https://toyhoshi.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Mr Toyhoshi"
+    },
+    "items": [
+        {
+            "id": "https://toyhoshi.github.io/cloud-where-are-you.html",
+            "url": "https://toyhoshi.github.io/cloud-where-are-you.html",
+            "title": "Cloud, where are you ?",
+            "summary": " What is the purpose of the blog? Why it was created? The post is about answers that change over&hellip;",
+            "content_html": "<p class=\"align-center\"><img loading=\"lazy\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXLrst9S_iKjPIQnxMxVQONXNfW7ja8xGm6g&amp;usqp=CAU\" data-is-external-image=\"true\"  alt=\"Let The Adventure Begin Coffee Mug - New Journey Gift ...\"></p>\n<p>What is the purpose of the blog? Why it was created? The post is about answers that change over time. </p>",
+            "author": {
+                "name": "Mr Toyhoshi"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-09T16:22:15+02:00",
+            "date_modified": "2020-08-09T16:22:15+02:00"
+        }
+    ]
+}
