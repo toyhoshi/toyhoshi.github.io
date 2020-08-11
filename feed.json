@@ -11,6 +11,20 @@
     },
     "items": [
         {
+            "id": "https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html",
+            "url": "https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html",
+            "title": "What is a Terraform and Infrastructure as Code?",
+            "summary": "Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure resources. It is used to&hellip;",
+            "content_html": "<p>Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure resources. It is used to build, manage, update and delete infrastructure resources like virtual machines, containers, networking and others using infrastructure as a coding philosophy. Terraform is a vendor agnostic tool and can manage infrastructure for multiple resource providers (for example AWS, Google Cloud, Azure, Aviatrix, Heroku, Oracle, etc.).</p>\n<p>In simple terms, if you want to provision a Virtual Private Cloud or an EC2 instance in AWS, you can write a terraform configuration to automate this process rather than doing it manually from AWS console.</p>",
+            "author": {
+                "name": "Mr Toyhoshi"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-11T15:50:08+02:00",
+            "date_modified": "2020-08-11T15:50:08+02:00"
+        },
+        {
             "id": "https://toyhoshi.github.io/why-use-infrastructure-as-code.html",
             "url": "https://toyhoshi.github.io/why-use-infrastructure-as-code.html",
             "title": "Why use infrastructure as code?",
@@ -22,8 +36,8 @@
             "tags": [
                    "IaC"
             ],
-            "date_published": "2020-08-11T15:47:16+02:00",
-            "date_modified": "2020-08-11T15:47:16+02:00"
+            "date_published": "2020-08-11T15:50:08+02:00",
+            "date_modified": "2020-08-11T15:50:08+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/cloud-where-are-you.html",
@@ -37,8 +51,8 @@
             "tags": [
                    "cloud"
             ],
-            "date_published": "2020-08-11T15:47:16+02:00",
-            "date_modified": "2020-08-11T15:47:16+02:00"
+            "date_published": "2020-08-11T15:50:08+02:00",
+            "date_modified": "2020-08-11T15:50:08+02:00"
         }
     ]
 }

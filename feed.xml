@@ -10,6 +10,27 @@
     <id>https://toyhoshi.github.io</id>
 
     <entry>
+        <title>What is a Terraform and Infrastructure as Code?</title>
+        <author>
+            <name>Mr Toyhoshi</name>
+        </author>
+        <link href="https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html"/>
+        <id>https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html</id>
+
+        <updated>2020-08-11T15:50:08+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure resources. It is used to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure resources. It is used to build, manage, update and delete infrastructure resources like virtual machines, containers, networking and others using infrastructure as a coding philosophy. Terraform is a vendor agnostic tool and can manage infrastructure for multiple resource providers (for example AWS, Google Cloud, Azure, Aviatrix, Heroku, Oracle, etc.).</p>
+<p>In simple terms, if you want to provision a Virtual Private Cloud or an EC2 instance in AWS, you can write a terraform configuration to automate this process rather than doing it manually from AWS console.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>Why use infrastructure as code?</title>
         <author>
             <name>Mr Toyhoshi</name>
@@ -18,7 +39,7 @@
         <id>https://toyhoshi.github.io/why-use-infrastructure-as-code.html</id>
             <category term="IaC"/>
 
-        <updated>2020-08-11T15:47:16+02:00</updated>
+        <updated>2020-08-11T15:50:08+02:00</updated>
             <summary>
                 <![CDATA[
                     Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is&hellip;
@@ -57,7 +78,7 @@
         <id>https://toyhoshi.github.io/cloud-where-are-you.html</id>
             <category term="cloud"/>
 
-        <updated>2020-08-11T15:47:16+02:00</updated>
+        <updated>2020-08-11T15:50:08+02:00</updated>
             <summary>
                 <![CDATA[
                      What is the purpose of the blog? Why it was created? The post is about answers that change over&hellip;
