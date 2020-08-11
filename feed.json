@@ -5,11 +5,26 @@
     "home_page_url": "https://toyhoshi.github.io",
     "feed_url": "https://toyhoshi.github.io/feed.json",
     "user_comment": "",
-    "icon": "https://toyhoshi.github.io/media/website/LogoCloudNotes.png",
+    "icon": "https://toyhoshi.github.io/media/website/LogoCloudNotes-2.png",
     "author": {
         "name": "Mr Toyhoshi"
     },
     "items": [
+        {
+            "id": "https://toyhoshi.github.io/why-use-infrastructure-as-code.html",
+            "url": "https://toyhoshi.github.io/why-use-infrastructure-as-code.html",
+            "title": "Why use infrastructure as code?",
+            "summary": "Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is&hellip;",
+            "content_html": "<p>Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is both human readable, and machine consumable. For AWS cloud development the built-in choice for infrastructure as code is <a href=\"https://aws.amazon.com/cloudformation/\" target=\"_blank\" class=\"highlight\" rel=\"noopener\">AWS CloudFormation</a>.</p>\n<p>Using AWS CloudFormation you can write a description of the resources that you want to create on your AWS account, and then ask AWS CloudFormation to make this description into reality. For example the following YAML template snippet describes an AWS ECS service resource to create:</p>\n<pre><code class=\"language-yaml hljs\"><span class=\"hljs-attr\">Service:</span>\n<span class=\"hljs-attr\">  Type:</span> <span class=\"hljs-string\">'AWS::ECS::Service'</span>\n<span class=\"hljs-attr\">  DependsOn:</span> <span class=\"hljs-string\">'ServiceDiscoveryService'</span>\n<span class=\"hljs-attr\">  Properties:</span>\n<span class=\"hljs-attr\">    ServiceName:</span> <span class=\"hljs-string\">'app'</span>\n<span class=\"hljs-attr\">    Cluster:</span> <span class=\"hljs-string\">'production'</span>\n<span class=\"hljs-attr\">    DeploymentConfiguration:</span>\n<span class=\"hljs-attr\">      MaximumPercent:</span> <span class=\"hljs-number\">200</span>\n<span class=\"hljs-attr\">      MinimumHealthyPercent:</span> <span class=\"hljs-number\">75</span>\n<span class=\"hljs-attr\">    DesiredCount:</span> <span class=\"hljs-number\">5</span>\n<span class=\"hljs-attr\">    TaskDefinition:</span> !Ref <span class=\"hljs-string\">'TaskDefinition'</span>\n<span class=\"hljs-attr\">    ServiceRegistries:</span>\n<span class=\"hljs-attr\">      - RegistryArn:</span> !GetAtt ServiceDiscoveryService.Arn\n<span class=\"hljs-attr\">        ContainerPort:</span> <span class=\"hljs-number\">3000</span>\n<span class=\"hljs-attr\">        ContainerName:</span> <span class=\"hljs-string\">'myapp'</span>\n</code></pre>\n<p>AWS CloudFormation takes this template and then assumes the responsibility of creating, updating, and deleting resources on your AWS account according to what is described in the template. If you add a new resource to the file CloudFormation will create that resource on your account. If you update a resource CloudFormation will either update or replace any existing matching resources. And if you remove a resource from the template it will be cleaned up and removed from your AWS account.</p>",
+            "author": {
+                "name": "Mr Toyhoshi"
+            },
+            "tags": [
+                   "IaC"
+            ],
+            "date_published": "2020-08-11T15:28:24+02:00",
+            "date_modified": "2020-08-11T15:28:24+02:00"
+        },
         {
             "id": "https://toyhoshi.github.io/cloud-where-are-you.html",
             "url": "https://toyhoshi.github.io/cloud-where-are-you.html",
@@ -22,8 +37,8 @@
             "tags": [
                    "cloud"
             ],
-            "date_published": "2020-08-11T11:05:01+02:00",
-            "date_modified": "2020-08-11T11:05:01+02:00"
+            "date_published": "2020-08-11T15:28:24+02:00",
+            "date_modified": "2020-08-11T15:28:24+02:00"
         }
     ]
 }
