@@ -22,8 +22,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-08-12T14:58:47+02:00",
-            "date_modified": "2020-08-12T14:58:47+02:00"
+            "date_published": "2020-08-12T15:11:11+02:00",
+            "date_modified": "2020-08-12T15:11:11+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/what-is-amazon-elastic-container-service.html",
@@ -38,8 +38,8 @@
             "tags": [
                    "ECS"
             ],
-            "date_published": "2020-08-12T14:58:47+02:00",
-            "date_modified": "2020-08-12T14:58:47+02:00"
+            "date_published": "2020-08-12T15:11:11+02:00",
+            "date_modified": "2020-08-12T15:11:11+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/ecs-vs-fargate-whats-the-difference.html",
@@ -55,8 +55,8 @@
                    "Fargate",
                    "ECS"
             ],
-            "date_published": "2020-08-12T14:58:47+02:00",
-            "date_modified": "2020-08-12T14:58:47+02:00"
+            "date_published": "2020-08-12T15:11:11+02:00",
+            "date_modified": "2020-08-12T15:11:11+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/why-use-infrastructure-as-code.html",
@@ -70,8 +70,8 @@
             "tags": [
                    "IaC"
             ],
-            "date_published": "2020-08-12T14:58:47+02:00",
-            "date_modified": "2020-08-12T14:58:47+02:00"
+            "date_published": "2020-08-12T15:11:11+02:00",
+            "date_modified": "2020-08-12T15:11:11+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/cloud-where-are-you.html",
@@ -85,8 +85,8 @@
             "tags": [
                    "cloud"
             ],
-            "date_published": "2020-08-12T14:58:47+02:00",
-            "date_modified": "2020-08-12T14:58:47+02:00"
+            "date_published": "2020-08-12T15:11:11+02:00",
+            "date_modified": "2020-08-12T15:11:11+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html",
@@ -100,8 +100,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-08-12T14:58:47+02:00",
-            "date_modified": "2020-08-12T14:58:47+02:00"
+            "date_published": "2020-08-12T15:11:11+02:00",
+            "date_modified": "2020-08-12T15:11:11+02:00"
         }
     ]
 }
