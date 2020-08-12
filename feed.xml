@@ -5,19 +5,19 @@
     <link href="https://toyhoshi.github.io" />
     <updated>1970-01-01T01:00:00+01:00</updated>
     <author>
-        <name>Mr Toyhoshi</name>
+        <name>Toyhoshi</name>
     </author>
     <id>https://toyhoshi.github.io</id>
 
     <entry>
         <title>Automation vs. Orchestration: What’s the Difference?</title>
         <author>
-            <name>Mr Toyhoshi</name>
+            <name>Toyhoshi</name>
         </author>
         <link href="https://toyhoshi.github.io/automation-vs-orchestration-whats-the-difference.html"/>
         <id>https://toyhoshi.github.io/automation-vs-orchestration-whats-the-difference.html</id>
 
-        <updated>2020-08-12T15:11:11+02:00</updated>
+        <updated>2020-08-12T15:17:54+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/6/servers.png" alt="" />
@@ -76,13 +76,13 @@
     <entry>
         <title>What is Amazon Elastic Container Service?</title>
         <author>
-            <name>Mr Toyhoshi</name>
+            <name>Toyhoshi</name>
         </author>
         <link href="https://toyhoshi.github.io/what-is-amazon-elastic-container-service.html"/>
         <id>https://toyhoshi.github.io/what-is-amazon-elastic-container-service.html</id>
             <category term="ECS"/>
 
-        <updated>2020-08-12T15:11:11+02:00</updated>
+        <updated>2020-08-12T15:17:54+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/5/ECS-2.png" alt="" />
@@ -105,14 +105,14 @@
     <entry>
         <title>ECS vs. Fargate: What&#x27;s the difference?</title>
         <author>
-            <name>Mr Toyhoshi</name>
+            <name>Toyhoshi</name>
         </author>
         <link href="https://toyhoshi.github.io/ecs-vs-fargate-whats-the-difference.html"/>
         <id>https://toyhoshi.github.io/ecs-vs-fargate-whats-the-difference.html</id>
             <category term="Fargate"/>
             <category term="ECS"/>
 
-        <updated>2020-08-12T15:11:11+02:00</updated>
+        <updated>2020-08-12T15:17:54+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/4/rekognition.jpg" alt="" />
@@ -142,13 +142,13 @@
     <entry>
         <title>Why use infrastructure as code?</title>
         <author>
-            <name>Mr Toyhoshi</name>
+            <name>Toyhoshi</name>
         </author>
         <link href="https://toyhoshi.github.io/why-use-infrastructure-as-code.html"/>
         <id>https://toyhoshi.github.io/why-use-infrastructure-as-code.html</id>
             <category term="IaC"/>
 
-        <updated>2020-08-12T15:11:11+02:00</updated>
+        <updated>2020-08-12T15:17:54+02:00</updated>
             <summary>
                 <![CDATA[
                     Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is&hellip;
@@ -181,13 +181,13 @@
     <entry>
         <title>Cloud, where are you ?</title>
         <author>
-            <name>Mr Toyhoshi</name>
+            <name>Toyhoshi</name>
         </author>
         <link href="https://toyhoshi.github.io/cloud-where-are-you.html"/>
         <id>https://toyhoshi.github.io/cloud-where-are-you.html</id>
             <category term="cloud"/>
 
-        <updated>2020-08-12T15:11:11+02:00</updated>
+        <updated>2020-08-12T15:17:54+02:00</updated>
             <summary>
                 <![CDATA[
                      What is the purpose of the blog? Why it was created? The post is about answers that change over&hellip;
@@ -203,12 +203,12 @@
     <entry>
         <title>What is a Terraform and Infrastructure as Code?</title>
         <author>
-            <name>Mr Toyhoshi</name>
+            <name>Toyhoshi</name>
         </author>
         <link href="https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html"/>
         <id>https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html</id>
 
-        <updated>2020-08-12T15:11:11+02:00</updated>
+        <updated>2020-08-12T15:17:54+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/3/linux-wallpaper.png" alt="" />
