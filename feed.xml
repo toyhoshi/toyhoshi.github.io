@@ -19,7 +19,7 @@
             <category term="Fargate"/>
             <category term="ECS"/>
 
-        <updated>2020-08-12T11:26:23+02:00</updated>
+        <updated>2020-08-12T11:31:37+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/4/rekognition.jpg" alt="" />
@@ -55,7 +55,7 @@
         <id>https://toyhoshi.github.io/why-use-infrastructure-as-code.html</id>
             <category term="IaC"/>
 
-        <updated>2020-08-12T11:26:23+02:00</updated>
+        <updated>2020-08-12T11:31:37+02:00</updated>
             <summary>
                 <![CDATA[
                     Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is&hellip;
@@ -94,7 +94,7 @@
         <id>https://toyhoshi.github.io/cloud-where-are-you.html</id>
             <category term="cloud"/>
 
-        <updated>2020-08-12T11:26:23+02:00</updated>
+        <updated>2020-08-12T11:31:37+02:00</updated>
             <summary>
                 <![CDATA[
                      What is the purpose of the blog? Why it was created? The post is about answers that change over&hellip;
@@ -115,7 +115,7 @@
         <link href="https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html"/>
         <id>https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html</id>
 
-        <updated>2020-08-12T11:26:23+02:00</updated>
+        <updated>2020-08-12T11:31:37+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/3/linux-wallpaper.png" alt="" />
