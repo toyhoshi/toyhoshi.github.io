@@ -10,6 +10,99 @@
     <id>https://toyhoshi.github.io</id>
 
     <entry>
+        <title>Automation vs. Orchestration: What’s the Difference?</title>
+        <author>
+            <name>Mr Toyhoshi</name>
+        </author>
+        <link href="https://toyhoshi.github.io/automation-vs-orchestration-whats-the-difference.html"/>
+        <id>https://toyhoshi.github.io/automation-vs-orchestration-whats-the-difference.html</id>
+
+        <updated>2020-08-12T14:56:34+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://toyhoshi.github.io/media/posts/6/servers.png" alt="" />
+                    Whether your applications and data are housed on-premise or in the cloud, automation and orchestration make complex business processes run&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://toyhoshi.github.io/media/posts/6/servers.png" alt="" />
+                <div id="item-5c798ec9b208fc28721ef693" class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Post Body" data-type="item" data-updated-on="1551470823709">
+<div id="yui_3_17_2_1_1597227630910_273" class="row sqs-row">
+<div id="yui_3_17_2_1_1597227630910_272" class="col sqs-col-12 span-12">
+<div id="block-yui_3_17_2_1_1564677119000_171191" class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5">
+<div id="yui_3_17_2_1_1597227630910_271" class="sqs-block-content">
+<div id="yui_3_17_2_1_1597227630910_270" class="
+          image-block-outer-wrapper
+          layout-caption-below
+          design-layout-inline
+          combination-animation-none
+          individual-animation-none
+          individual-text-animation-none
+        " data-test="image-block-inline-outer-wrapper">
+<figure id="yui_3_17_2_1_1597227630910_269" class="
+              sqs-block-image-figure
+              intrinsic
+            ">
+<div id="yui_3_17_2_1_1597227630910_268" class="
+                image-block-wrapper
+                
+          
+        
+                has-aspect-ratio
+              " data-animation-role="image"><figure class="thumb-image loaded"><img loading="lazy"  src="https://images.squarespace-cdn.com/content/v1/5a09abcb90bcce4bd5518c91/1564683630206-XX7DT7NV0Y4VK136AF7O/ke17ZwdGBToddI8pDm48kCuklj2YuBCXDCzdVfA7N54UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnPNZb1olE9Yx5khhoDIGVPJo4r7RzB4Bw8BE5J_vMuAuETvjpvZO0R1wDX8fMpw45w/Complex+roads?format=1500w" data-is-external-image="true"  alt="Complex roads" data-src="https://images.squarespace-cdn.com/content/v1/5a09abcb90bcce4bd5518c91/1564683630206-XX7DT7NV0Y4VK136AF7O/ke17ZwdGBToddI8pDm48kCuklj2YuBCXDCzdVfA7N54UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnPNZb1olE9Yx5khhoDIGVPJo4r7RzB4Bw8BE5J_vMuAuETvjpvZO0R1wDX8fMpw45w/Complex+roads" data-image="https://images.squarespace-cdn.com/content/v1/5a09abcb90bcce4bd5518c91/1564683630206-XX7DT7NV0Y4VK136AF7O/ke17ZwdGBToddI8pDm48kCuklj2YuBCXDCzdVfA7N54UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnPNZb1olE9Yx5khhoDIGVPJo4r7RzB4Bw8BE5J_vMuAuETvjpvZO0R1wDX8fMpw45w/Complex+roads" data-image-dimensions="2500x980" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5d432e1096cf600001f6a1ed" data-type="image" data-image-resolution="1500w"></figure></div>
+</figure>
+</div>
+</div>
+</div>
+<div id="block-4c7d07e39c54d59e30df" class="sqs-block html-block sqs-block-html" data-block-type="2">
+<div class="sqs-block-content">
+<p class="">Whether your applications and data are housed on-premise or in the cloud, automation and orchestration make complex business processes run smoothly. The more workloads you’re managing, the more helpful these tools will be no matter what your IT strategy is.</p>
+<p class="">To understand automation vs. orchestration, it’s helpful to consider each function on its own, first.</p>
+<h2>What is IT automation?</h2>
+<p class="">Automation, generally speaking, means completing a single task or function without human intervention. Executed wisely, automation makes traditionally time-intensive, manual processes more efficient and reliable.</p>
+<p class="">In IT, it’s possible to automate a wide range of processes and tasks, from app deployment and integration, to securing endpoints and creating service tickets, for both on-premise and cloud tasks. In cloud automation, for instance, you might use automation tools and machine learning to dynamically deploy assets to the cloud, manage cloud computing workloads or classify terabytes of images—something our partner, Google Cloud, can help you do.</p>
+<h2>What is orchestration?</h2>
+<p class="">At its core, Orchestration is most akin to managing a large-scale virtual environment or network. Orchestrating the scheduling and integration of automated tasks between complex distributed systems and services—whether on-premise or in the cloud—streamlines and simplifies interconnected workloads, repeatable processes, and operations. Using today’s orchestration tools, you can automate the arrangement, coordination and management of complex computer systems, middleware and services within your computing environment, and direct automated processes to support larger workflows.</p>
+<p class="">With modern IT teams now responsible for managing hundreds to thousands of applications and servers, manual administration simply can’t scale today’s needs. Orchestration is essential for delivering highly available, dynamically scaling, performant applications, and cloud systems, relieving your team of a very heavy burden. </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>What is Amazon Elastic Container Service?</title>
+        <author>
+            <name>Mr Toyhoshi</name>
+        </author>
+        <link href="https://toyhoshi.github.io/what-is-amazon-elastic-container-service.html"/>
+        <id>https://toyhoshi.github.io/what-is-amazon-elastic-container-service.html</id>
+            <category term="ECS"/>
+
+        <updated>2020-08-12T14:56:34+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://toyhoshi.github.io/media/posts/5/ECS-2.png" alt="" />
+                     Amazon Elastic Container Service (Amazon ECS) is a highly scalable, fast, container management service that makes it easy to run,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://toyhoshi.github.io/media/posts/5/ECS-2.png" alt="" />
+                <div class="awsdocs-page-header-container">
+<div class="awsdocs-page-header"> </div>
+</div>
+<p>Amazon Elastic Container Service (Amazon ECS) is a highly scalable, fast, container management service that makes it easy to run, stop, and manage containers on a cluster. Your containers are defined in a task definition which you use to run individual tasks or as a service. You can run your tasks and services on a serverless infrastructure that is managed by AWS Fargate or, for more control over your infrastructure, you can run your tasks and services on a cluster of Amazon EC2 instances that you manage.</p>
+<p>Amazon ECS enables you to launch and stop your container-based applications with simple API calls. You can also retrieve the state of your cluster from a centralized service and, for existing users of Amazon EC2, access many familiar Amazon EC2 features.</p>
+<p>You can schedule the placement of your containers across your cluster based on your resource needs, isolation policies, and availability requirements. With Amazon ECS, you do not have to operate your own cluster management and configuration management systems or worry about scaling your management infrastructure.</p>
+<p>Amazon ECS can be used to create a consistent deployment and build experience, manage, and scale batch and Extract-Transform-Load (ETL) workloads, and build sophisticated application architectures on a microservices model. </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>ECS vs. Fargate: What&#x27;s the difference?</title>
         <author>
             <name>Mr Toyhoshi</name>
@@ -19,7 +112,7 @@
             <category term="Fargate"/>
             <category term="ECS"/>
 
-        <updated>2020-08-12T11:37:45+02:00</updated>
+        <updated>2020-08-12T14:56:34+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/4/rekognition.jpg" alt="" />
@@ -55,7 +148,7 @@
         <id>https://toyhoshi.github.io/why-use-infrastructure-as-code.html</id>
             <category term="IaC"/>
 
-        <updated>2020-08-12T11:37:45+02:00</updated>
+        <updated>2020-08-12T14:56:34+02:00</updated>
             <summary>
                 <![CDATA[
                     Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is&hellip;
@@ -94,7 +187,7 @@
         <id>https://toyhoshi.github.io/cloud-where-are-you.html</id>
             <category term="cloud"/>
 
-        <updated>2020-08-12T11:37:45+02:00</updated>
+        <updated>2020-08-12T14:56:34+02:00</updated>
             <summary>
                 <![CDATA[
                      What is the purpose of the blog? Why it was created? The post is about answers that change over&hellip;
@@ -115,7 +208,7 @@
         <link href="https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html"/>
         <id>https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html</id>
 
-        <updated>2020-08-12T11:37:45+02:00</updated>
+        <updated>2020-08-12T14:56:34+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/3/linux-wallpaper.png" alt="" />
