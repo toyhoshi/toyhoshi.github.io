@@ -5,24 +5,27 @@
     "home_page_url": "https://toyhoshi.github.io",
     "feed_url": "https://toyhoshi.github.io/feed.json",
     "user_comment": "",
-    "icon": "https://toyhoshi.github.io/media/website/LogoCloudNotes-2.png",
+    "icon": "https://toyhoshi.github.io/media/website/LogoCloudNotes.png",
     "author": {
         "name": "Mr Toyhoshi"
     },
     "items": [
         {
-            "id": "https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html",
-            "url": "https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html",
-            "title": "What is a Terraform and Infrastructure as Code?",
-            "summary": "Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure resources. It is used to&hellip;",
-            "content_html": "<p>Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure resources. It is used to build, manage, update and delete infrastructure resources like virtual machines, containers, networking and others using infrastructure as a coding philosophy. Terraform is a vendor agnostic tool and can manage infrastructure for multiple resource providers (for example AWS, Google Cloud, Azure, Aviatrix, Heroku, Oracle, etc.).</p>\n<p>In simple terms, if you want to provision a Virtual Private Cloud or an EC2 instance in AWS, you can write a terraform configuration to automate this process rather than doing it manually from AWS console.</p>",
+            "id": "https://toyhoshi.github.io/ecs-vs-fargate-whats-the-difference.html",
+            "url": "https://toyhoshi.github.io/ecs-vs-fargate-whats-the-difference.html",
+            "title": "ECS vs. Fargate: What&#x27;s the difference?",
+            "summary": "When discussing options to run Docker on AWS, I’m often asked about the differences between ECS and EKS or Kubernets. However, lately,&hellip;",
+            "content_html": "<div class=\"row\">\n<div class=\"col-sm-8 offset-sm-2\">\n<div class=\"meta-information\"><span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">When discussing options to run Docker on AWS, I’m often asked about the differences between ECS and </span><a href=\"https://cloudonaut.io/eks-vs-ecs-orchestrating-containers-on-aws/\" style=\"font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">EKS</a><span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\"> or </span><a href=\"https://cloudonaut.io/ecs-vs-kubernetes/\" style=\"font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">Kubernets</a><span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">. However, lately, a new question arises: What’s the difference between ECS and </span><a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html\" target=\"_blank\" rel=\"noopener\" style=\"font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">AWS Fargate</a><span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">? In this blog post, you get the answer. You also learn about the advantages and disadvantages of both options.</span></div>\n</div>\n</div>\n<div class=\"row content\">\n<div class=\"col-12 col-sm-8\">\n<p>To understand the difference, let’s divide the ECS service into two responsibilities:</p>\n<ol>\n<li>Managing the lifecycle and placement of tasks</li>\n<li>Running containers</li>\n</ol>\n</div>\n</div>",
+            "image": "https://toyhoshi.github.io/media/posts/4/rekognition.jpg",
             "author": {
                 "name": "Mr Toyhoshi"
             },
             "tags": [
+                   "Fargate",
+                   "ECS"
             ],
-            "date_published": "2020-08-11T15:50:08+02:00",
-            "date_modified": "2020-08-11T15:50:08+02:00"
+            "date_published": "2020-08-12T11:11:45+02:00",
+            "date_modified": "2020-08-12T11:11:45+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/why-use-infrastructure-as-code.html",
@@ -36,8 +39,8 @@
             "tags": [
                    "IaC"
             ],
-            "date_published": "2020-08-11T15:50:08+02:00",
-            "date_modified": "2020-08-11T15:50:08+02:00"
+            "date_published": "2020-08-12T11:11:45+02:00",
+            "date_modified": "2020-08-12T11:11:45+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/cloud-where-are-you.html",
@@ -51,8 +54,23 @@
             "tags": [
                    "cloud"
             ],
-            "date_published": "2020-08-11T15:50:08+02:00",
-            "date_modified": "2020-08-11T15:50:08+02:00"
+            "date_published": "2020-08-12T11:11:45+02:00",
+            "date_modified": "2020-08-12T11:11:45+02:00"
+        },
+        {
+            "id": "https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html",
+            "url": "https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html",
+            "title": "What is a Terraform and Infrastructure as Code?",
+            "summary": "Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure resources. It is used to&hellip;",
+            "content_html": "<p>Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure resources. It is used to build, manage, update and delete infrastructure resources like virtual machines, containers, networking and others using infrastructure as a coding philosophy. Terraform is a vendor agnostic tool and can manage infrastructure for multiple resource providers (for example AWS, Google Cloud, Azure, Aviatrix, Heroku, Oracle, etc.).</p>\n<p>In simple terms, if you want to provision a Virtual Private Cloud or an EC2 instance in AWS, you can write a terraform configuration to automate this process rather than doing it manually from AWS console.</p>",
+            "image": "https://toyhoshi.github.io/media/posts/3/linux-wallpaper.png",
+            "author": {
+                "name": "Mr Toyhoshi"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-12T11:11:45+02:00",
+            "date_modified": "2020-08-12T11:11:45+02:00"
         }
     ]
 }
