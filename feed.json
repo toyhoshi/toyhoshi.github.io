@@ -24,8 +24,8 @@
                    "Fargate",
                    "ECS"
             ],
-            "date_published": "2020-08-12T11:31:37+02:00",
-            "date_modified": "2020-08-12T11:31:37+02:00"
+            "date_published": "2020-08-12T11:35:15+02:00",
+            "date_modified": "2020-08-12T11:35:15+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/why-use-infrastructure-as-code.html",
@@ -39,8 +39,8 @@
             "tags": [
                    "IaC"
             ],
-            "date_published": "2020-08-12T11:31:37+02:00",
-            "date_modified": "2020-08-12T11:31:37+02:00"
+            "date_published": "2020-08-12T11:35:15+02:00",
+            "date_modified": "2020-08-12T11:35:15+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/cloud-where-are-you.html",
@@ -54,8 +54,8 @@
             "tags": [
                    "cloud"
             ],
-            "date_published": "2020-08-12T11:31:37+02:00",
-            "date_modified": "2020-08-12T11:31:37+02:00"
+            "date_published": "2020-08-12T11:35:15+02:00",
+            "date_modified": "2020-08-12T11:35:15+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html",
@@ -69,8 +69,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-08-12T11:31:37+02:00",
-            "date_modified": "2020-08-12T11:31:37+02:00"
+            "date_published": "2020-08-12T11:35:15+02:00",
+            "date_modified": "2020-08-12T11:35:15+02:00"
         }
     ]
 }
