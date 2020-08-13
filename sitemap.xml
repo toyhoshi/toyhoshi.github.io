@@ -5,6 +5,10 @@
 <loc>https://toyhoshi.github.io/</loc>
 </url>
 <url>
+<loc>https://toyhoshi.github.io/august-2020-whats-new.html</loc>
+<lastmod>2020-08-13T11:15:23+02:00</lastmod>
+</url>
+<url>
 <loc>https://toyhoshi.github.io/automation-vs-orchestration-whats-the-difference.html</loc>
 <lastmod>2020-08-12T12:21:40+02:00</lastmod>
 <image:image>
@@ -26,7 +30,7 @@
 </url>
 <url>
 <loc>https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html</loc>
-<lastmod>2020-08-12T11:04:11+02:00</lastmod>
+<lastmod>2020-08-13T11:13:55+02:00</lastmod>
 <image:image>
 <image:loc>https://toyhoshi.github.io/media/posts/3/linux-wallpaper.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -42,6 +46,10 @@
 </url>
 <url>
 <loc>https://toyhoshi.github.io/why-use-infrastructure-as-code.html</loc>
-<lastmod>2020-08-11T15:25:28+02:00</lastmod>
+<lastmod>2020-08-13T11:14:44+02:00</lastmod>
+<image:image>
+<image:loc>https://toyhoshi.github.io/media/posts/2/1433779007_5.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
 </url>
 </urlset>

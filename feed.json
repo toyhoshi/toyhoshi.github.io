@@ -5,11 +5,24 @@
     "home_page_url": "https://toyhoshi.github.io",
     "feed_url": "https://toyhoshi.github.io/feed.json",
     "user_comment": "",
-    "icon": "https://toyhoshi.github.io/media/website/LogoCloudNotes.png",
+    "icon": "https://toyhoshi.github.io/media/website/LogoCloudNotes-2.png",
     "author": {
         "name": "Toyhoshi"
     },
     "items": [
+        {
+            "id": "https://toyhoshi.github.io/august-2020-whats-new.html",
+            "url": "https://toyhoshi.github.io/august-2020-whats-new.html",
+            "title": "August 2020: what&#x27;s new",
+            "content_html": "<div class=\"title-wrapper\">\n<div class=\"row title\">\n<div class=\"twelve columns\">\n<div class=\"post__toc\">\n<h3>Table of Contents</h3>\n<ul>\n<li><a href=\"#AWS_Fargate_for_Amazon_ECS_now_supports_UDP_load_balancing_with_Network_Load_Balancer\">AWS Fargate for Amazon ECS now supports UDP load balancing with Network Load Balancer</a></li>\n<li><a href=\"#Amazon_ECS_announces_AWS_Copilot,_a_new_CLI_to_deploy_and_operate_containers_in_AWS\">Amazon ECS announces AWS Copilot, a new CLI to deploy and operate containers in AWS</a></li>\n</ul>\n</div>\n<h4 id=\"AWS_Fargate_for_Amazon_ECS_now_supports_UDP_load_balancing_with_Network_Load_Balancer\">AWS Fargate for Amazon ECS now supports UDP load balancing with Network Load Balancer</h4>\n</div>\n</div>\n</div>\n<div class=\"aws-text-box\">\n<div class=\"  \">\n<p>You can now use a <a href=\"https://aws.amazon.com/elasticloadbalancing/\">Network Load Balancer</a> (NLB) to distribute UDP traffic to container-based applications running on <a href=\"https://aws.amazon.com/fargate/\">AWS Fargate</a> orchestrated by <a href=\"https://aws.amazon.com/ecs/\">Amazon Elastic Container Service</a> (ECS). Network Load Balancers are fully-managed load balancers that operate at the connection level (Layer-4) and are capable of handling millions of requests at ultra-low latency. Until now, you could use Network Load Balancers with AWS Fargate only with the TCP protocol. With this new integration, you get the simplicity of serverless containers to run applications on Fargate that use the UDP protocol. You can run workloads such as DNS, IoT, real-time media, and syslog while maintaining high throughput at ultra low latency through the Network Load Balancer.</p>\n</div>\n</div>\n<div class=\"parsys content\">\n<div class=\"aws-text-box section\">\n<div class=\"  \">\n<p>Fargate support for the UDP protocol through a Network Load Balancer is available in Platform Version 1.4 for the Amazon ECS container orchestration service. The support is available in US East (N. Virginia), US West (Oregon), Europe (Ireland), and Asia Pacific (Tokyo) Regions. For more information, please see the <a href=\"https://aws.amazon.com/blogs/containers/aws-fargate-now-supports-udp-load-balancing-with-network-load-balancer/\">blog post</a> and the Network Load Balancer <a href=\"https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html\">documentation</a> page.</p>\n<p> </p>\n<div class=\"title-wrapper\">\n<div class=\"row title\">\n<div class=\"twelve columns\">\n<h4 id=\"Amazon_ECS_announces_AWS_Copilot,_a_new_CLI_to_deploy_and_operate_containers_in_AWS\">Amazon ECS announces AWS Copilot, a new CLI to deploy and operate containers in AWS</h4>\n</div>\n</div>\n</div>\n<p><span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">Today, </span><a href=\"https://aws.amazon.com/ecs/\" style=\"font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">Amazon Elastic Container Service (ECS)</a><span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\"> announced AWS Copilot, a command line interface tool that helps customers develop, release, and operate containerized applications on AWS. With a single command, AWS Copilot creates all infrastructure and artifacts required to run production-ready service on Amazon ECS and AWS Fargate, including task definitions, image repositories, and AWS resources like load balancers, deployment pipelines. With AWS Copilot, users can focus on developing their applications rather than setting up infrastructure.</span></p>\n<div class=\"parsys content\">\n<div class=\"aws-text-box section\">\n<div class=\"  \">\n<p>With AWS Copilot you can launch your service using one of the built in service patterns providing you secure and scalable infrastructure. Once your service is up and running, AWS Copilot has built in commands to easily add more services, infrastructure like databases or Amazon S3 Buckets, or even new deployment environments in different accounts and regions. While getting started and growing your application is important, AWS Copilot wants to make it easy for you to release and operate your application too. AWS Copilot lets you set up a fully functional CI/CD <a href=\"https://aws.amazon.com/codepipeline/\" target=\"_blank\" rel=\"noopener\">AWS CodePipeline</a> with just two commands to safely deploy through multiple deployment stages. Additionally, you can view all of your services' logs and health in seconds without having to leave your terminal. Finally, with AWS Copilot, you can choose a collaboration model that fits your team. When using AWS Copilot you can work alone or share your application with other users in your AWS account.  </p>\n</div>\n</div>\n<div class=\"aws-text-box section\">\n<div class=\"  \">\n<p>To get started, see the following resources:</p>\n<ul>\n<li>Copilot can deploy applications to AWS Fargate supported regions and is available for download on Mac and Linux <a href=\"https://github.com/aws/copilot-cli/wiki/Installation\" target=\"_blank\" rel=\"noopener\">here</a>.</li>\n<li>Connect with us and learn more about the project on our open source <a href=\"https://github.com/aws/amazon-ecs-cli-v2\" target=\"_blank\" rel=\"noopener\">GitHub repository</a>.</li>\n<li>Read about <a href=\"https://aws.amazon.com/blogs/containers/introducing-aws-copilot/\" target=\"_blank\" rel=\"noopener\">AWS Copilot</a> on the AWS Containers blog.</li>\n<li>See tutorials with Copilot in our <a href=\"https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_Copilot_CLI.html\" target=\"_blank\" rel=\"noopener\">documentation</a>.</li>\n</ul>\n</div>\n</div>\n</div>\n<p> </p>\n</div>\n</div>\n</div>",
+            "author": {
+                "name": "Toyhoshi"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-13T11:16:56+02:00",
+            "date_modified": "2020-08-13T11:16:56+02:00"
+        },
         {
             "id": "https://toyhoshi.github.io/automation-vs-orchestration-whats-the-difference.html",
             "url": "https://toyhoshi.github.io/automation-vs-orchestration-whats-the-difference.html",
@@ -22,8 +35,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-08-12T15:17:54+02:00",
-            "date_modified": "2020-08-12T15:17:54+02:00"
+            "date_published": "2020-08-13T11:16:56+02:00",
+            "date_modified": "2020-08-13T11:16:56+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/what-is-amazon-elastic-container-service.html",
@@ -38,8 +51,8 @@
             "tags": [
                    "ECS"
             ],
-            "date_published": "2020-08-12T15:17:54+02:00",
-            "date_modified": "2020-08-12T15:17:54+02:00"
+            "date_published": "2020-08-13T11:16:56+02:00",
+            "date_modified": "2020-08-13T11:16:56+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/ecs-vs-fargate-whats-the-difference.html",
@@ -55,8 +68,8 @@
                    "Fargate",
                    "ECS"
             ],
-            "date_published": "2020-08-12T15:17:54+02:00",
-            "date_modified": "2020-08-12T15:17:54+02:00"
+            "date_published": "2020-08-13T11:16:56+02:00",
+            "date_modified": "2020-08-13T11:16:56+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/why-use-infrastructure-as-code.html",
@@ -64,14 +77,15 @@
             "title": "Why use infrastructure as code?",
             "summary": "Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is&hellip;",
             "content_html": "<p>Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is both human readable, and machine consumable. For AWS cloud development the built-in choice for infrastructure as code is <a href=\"https://aws.amazon.com/cloudformation/\" target=\"_blank\" class=\"highlight\" rel=\"noopener\">AWS CloudFormation</a>.</p>\n<p>Using AWS CloudFormation you can write a description of the resources that you want to create on your AWS account, and then ask AWS CloudFormation to make this description into reality. For example the following YAML template snippet describes an AWS ECS service resource to create:</p>\n<pre><code class=\"language-yaml hljs\"><span class=\"hljs-attr\">Service:</span>\n<span class=\"hljs-attr\">  Type:</span> <span class=\"hljs-string\">'AWS::ECS::Service'</span>\n<span class=\"hljs-attr\">  DependsOn:</span> <span class=\"hljs-string\">'ServiceDiscoveryService'</span>\n<span class=\"hljs-attr\">  Properties:</span>\n<span class=\"hljs-attr\">    ServiceName:</span> <span class=\"hljs-string\">'app'</span>\n<span class=\"hljs-attr\">    Cluster:</span> <span class=\"hljs-string\">'production'</span>\n<span class=\"hljs-attr\">    DeploymentConfiguration:</span>\n<span class=\"hljs-attr\">      MaximumPercent:</span> <span class=\"hljs-number\">200</span>\n<span class=\"hljs-attr\">      MinimumHealthyPercent:</span> <span class=\"hljs-number\">75</span>\n<span class=\"hljs-attr\">    DesiredCount:</span> <span class=\"hljs-number\">5</span>\n<span class=\"hljs-attr\">    TaskDefinition:</span> !Ref <span class=\"hljs-string\">'TaskDefinition'</span>\n<span class=\"hljs-attr\">    ServiceRegistries:</span>\n<span class=\"hljs-attr\">      - RegistryArn:</span> !GetAtt ServiceDiscoveryService.Arn\n<span class=\"hljs-attr\">        ContainerPort:</span> <span class=\"hljs-number\">3000</span>\n<span class=\"hljs-attr\">        ContainerName:</span> <span class=\"hljs-string\">'myapp'</span>\n</code></pre>\n<p>AWS CloudFormation takes this template and then assumes the responsibility of creating, updating, and deleting resources on your AWS account according to what is described in the template. If you add a new resource to the file CloudFormation will create that resource on your account. If you update a resource CloudFormation will either update or replace any existing matching resources. And if you remove a resource from the template it will be cleaned up and removed from your AWS account.</p>",
+            "image": "https://toyhoshi.github.io/media/posts/2/1433779007_5.gif",
             "author": {
                 "name": "Toyhoshi"
             },
             "tags": [
                    "IaC"
             ],
-            "date_published": "2020-08-12T15:17:54+02:00",
-            "date_modified": "2020-08-12T15:17:54+02:00"
+            "date_published": "2020-08-13T11:16:56+02:00",
+            "date_modified": "2020-08-13T11:16:56+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/cloud-where-are-you.html",
@@ -85,8 +99,8 @@
             "tags": [
                    "cloud"
             ],
-            "date_published": "2020-08-12T15:17:54+02:00",
-            "date_modified": "2020-08-12T15:17:54+02:00"
+            "date_published": "2020-08-13T11:16:56+02:00",
+            "date_modified": "2020-08-13T11:16:56+02:00"
         },
         {
             "id": "https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html",
@@ -100,8 +114,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-08-12T15:17:54+02:00",
-            "date_modified": "2020-08-12T15:17:54+02:00"
+            "date_published": "2020-08-13T11:16:56+02:00",
+            "date_modified": "2020-08-13T11:16:56+02:00"
         }
     ]
 }
