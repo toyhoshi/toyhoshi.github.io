@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>clouday.dev</title>
-    <link href="https://toyhoshi.github.io/feed.xml" rel="self" />
-    <link href="https://toyhoshi.github.io" />
+    <link href="https://clouday.dev/feed.xml" rel="self" />
+    <link href="https://clouday.dev" />
     <updated>1970-01-01T01:00:00+01:00</updated>
     <author>
         <name>Toyhoshi</name>
     </author>
-    <id>https://toyhoshi.github.io</id>
+    <id>https://clouday.dev</id>
 
     <entry>
         <title>August 2020: what&#x27;s new</title>
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://toyhoshi.github.io/august-2020-whats-new.html"/>
-        <id>https://toyhoshi.github.io/august-2020-whats-new.html</id>
+        <link href="https://clouday.dev/august-2020-whats-new.html"/>
+        <id>https://clouday.dev/august-2020-whats-new.html</id>
 
-        <updated>2020-08-18T15:27:33+02:00</updated>
+        <updated>2020-08-18T16:16:25+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -85,21 +85,21 @@
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://toyhoshi.github.io/automation-vs-orchestration-whats-the-difference.html"/>
-        <id>https://toyhoshi.github.io/automation-vs-orchestration-whats-the-difference.html</id>
+        <link href="https://clouday.dev/automation-vs-orchestration-whats-the-difference.html"/>
+        <id>https://clouday.dev/automation-vs-orchestration-whats-the-difference.html</id>
             <category term="Orchestration"/>
             <category term="Automation"/>
 
-        <updated>2020-08-18T15:27:33+02:00</updated>
+        <updated>2020-08-18T16:16:25+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://toyhoshi.github.io/media/posts/6/AutomationVsOrchestration.png" alt="" />
+                        <img src="https://clouday.dev/media/posts/6/AutomationVsOrchestration.png" alt="" />
                     Whether your applications and data are housed on-premise or in the cloud, automation and orchestration make complex business processes run&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://toyhoshi.github.io/media/posts/6/AutomationVsOrchestration.png" alt="" />
+                    <img src="https://clouday.dev/media/posts/6/AutomationVsOrchestration.png" alt="" />
                 <div id="item-5c798ec9b208fc28721ef693" class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Post Body" data-type="item" data-updated-on="1551470823709">
 <div id="yui_3_17_2_1_1597227630910_273" class="row sqs-row">
 <div id="yui_3_17_2_1_1597227630910_272" class="col sqs-col-12 span-12">
@@ -151,20 +151,20 @@
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://toyhoshi.github.io/what-is-amazon-elastic-container-service.html"/>
-        <id>https://toyhoshi.github.io/what-is-amazon-elastic-container-service.html</id>
+        <link href="https://clouday.dev/what-is-amazon-elastic-container-service.html"/>
+        <id>https://clouday.dev/what-is-amazon-elastic-container-service.html</id>
             <category term="ECS"/>
 
-        <updated>2020-08-18T15:27:33+02:00</updated>
+        <updated>2020-08-18T16:16:25+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://toyhoshi.github.io/media/posts/5/ECS.png" alt="" />
+                        <img src="https://clouday.dev/media/posts/5/ECS.png" alt="" />
                      Amazon Elastic Container Service (Amazon ECS) is a highly scalable, fast, container management service that makes it easy to run,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://toyhoshi.github.io/media/posts/5/ECS.png" alt="" />
+                    <img src="https://clouday.dev/media/posts/5/ECS.png" alt="" />
                 <div class="awsdocs-page-header-container">
 <div class="awsdocs-page-header"> </div>
 </div>
@@ -180,21 +180,21 @@
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://toyhoshi.github.io/ecs-vs-fargate-whats-the-difference.html"/>
-        <id>https://toyhoshi.github.io/ecs-vs-fargate-whats-the-difference.html</id>
+        <link href="https://clouday.dev/ecs-vs-fargate-whats-the-difference.html"/>
+        <id>https://clouday.dev/ecs-vs-fargate-whats-the-difference.html</id>
             <category term="Fargate"/>
             <category term="ECS"/>
 
-        <updated>2020-08-18T15:27:33+02:00</updated>
+        <updated>2020-08-18T16:16:25+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://toyhoshi.github.io/media/posts/4/ECSvsFargate.jpeg" alt="" />
+                        <img src="https://clouday.dev/media/posts/4/ECSvsFargate.jpeg" alt="" />
                     When discussing options to run Docker on AWS, I’m often asked about the differences between ECS and EKS or Kubernets. However, lately,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://toyhoshi.github.io/media/posts/4/ECSvsFargate.jpeg" alt="" />
+                    <img src="https://clouday.dev/media/posts/4/ECSvsFargate.jpeg" alt="" />
                 <div class="row">
 <div class="col-sm-8 offset-sm-2">
 <div class="meta-information"><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">When discussing options to run Docker on AWS, I’m often asked about the differences between ECS and </span><a href="https://cloudonaut.io/eks-vs-ecs-orchestrating-containers-on-aws/" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">EKS</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> or </span><a href="https://cloudonaut.io/ecs-vs-kubernetes/" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">Kubernets</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">. However, lately, a new question arises: What’s the difference between ECS and </span><a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html" target="_blank" rel="noopener" style="font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">AWS Fargate</a><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">? In this blog post, you get the answer. You also learn about the advantages and disadvantages of both options.</span></div>
@@ -217,20 +217,20 @@
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://toyhoshi.github.io/why-use-infrastructure-as-code.html"/>
-        <id>https://toyhoshi.github.io/why-use-infrastructure-as-code.html</id>
+        <link href="https://clouday.dev/why-use-infrastructure-as-code.html"/>
+        <id>https://clouday.dev/why-use-infrastructure-as-code.html</id>
             <category term="IaC"/>
 
-        <updated>2020-08-18T15:27:33+02:00</updated>
+        <updated>2020-08-18T16:16:25+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://toyhoshi.github.io/media/posts/2/iac.png" alt="" />
+                        <img src="https://clouday.dev/media/posts/2/iac.png" alt="" />
                     Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://toyhoshi.github.io/media/posts/2/iac.png" alt="" />
+                    <img src="https://clouday.dev/media/posts/2/iac.png" alt="" />
                 <p>Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is both human readable, and machine consumable. For AWS cloud development the built-in choice for infrastructure as code is <a href="https://aws.amazon.com/cloudformation/" target="_blank" class="highlight" rel="noopener">AWS CloudFormation</a>.</p>
 <p>Using AWS CloudFormation you can write a description of the resources that you want to create on your AWS account, and then ask AWS CloudFormation to make this description into reality. For example the following YAML template snippet describes an AWS ECS service resource to create:</p>
 <pre><code class="language-yaml hljs"><span class="hljs-attr">Service:</span>
@@ -258,20 +258,20 @@
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://toyhoshi.github.io/cloud-where-are-you.html"/>
-        <id>https://toyhoshi.github.io/cloud-where-are-you.html</id>
+        <link href="https://clouday.dev/cloud-where-are-you.html"/>
+        <id>https://clouday.dev/cloud-where-are-you.html</id>
             <category term="Kafka"/>
 
-        <updated>2020-08-18T15:27:33+02:00</updated>
+        <updated>2020-08-18T16:16:25+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://toyhoshi.github.io/media/posts/1/amazonn-msk.png" alt="" />
+                        <img src="https://clouday.dev/media/posts/1/amazonn-msk.png" alt="" />
                      Amazon MSK is a fully managed service for Apache Kafka that makes it easy for you to build and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://toyhoshi.github.io/media/posts/1/amazonn-msk.png" alt="" />
+                    <img src="https://clouday.dev/media/posts/1/amazonn-msk.png" alt="" />
                 <p class="align-center"><img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXLrst9S_iKjPIQnxMxVQONXNfW7ja8xGm6g&amp;usqp=CAU" data-is-external-image="true"  alt="Let The Adventure Begin Coffee Mug - New Journey Gift ..."></p>
 <p>Amazon MSK is a fully managed service for Apache Kafka that makes it easy for you to build and run applications that use Apache Kafka as a data store. Amazon MSK is 100% compatible with Apache Kafka, which enables you to quickly migrate your existing Apache Kafka workloads to Amazon MSK with confidence or build new ones from scratch. With Amazon MSK, you spend more time innovating on applications and less time managing clusters. </p>
             ]]>
@@ -282,20 +282,20 @@
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html"/>
-        <id>https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html</id>
+        <link href="https://clouday.dev/what-is-a-terraform-and-infrastructure-as-code.html"/>
+        <id>https://clouday.dev/what-is-a-terraform-and-infrastructure-as-code.html</id>
             <category term="IaC"/>
 
-        <updated>2020-08-18T15:27:33+02:00</updated>
+        <updated>2020-08-18T16:16:25+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://toyhoshi.github.io/media/posts/3/Terraform.png" alt="" />
+                        <img src="https://clouday.dev/media/posts/3/Terraform.png" alt="" />
                     Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure resources. It is used to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://toyhoshi.github.io/media/posts/3/Terraform.png" alt="" />
+                    <img src="https://clouday.dev/media/posts/3/Terraform.png" alt="" />
                 <p>Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure resources. It is used to build, manage, update and delete infrastructure resources like virtual machines, containers, networking and others using infrastructure as a coding philosophy. Terraform is a vendor agnostic tool and can manage infrastructure for multiple resource providers (for example AWS, Google Cloud, Azure, Aviatrix, Heroku, Oracle, etc.).</p>
 <p>In simple terms, if you want to provision a Virtual Private Cloud or an EC2 instance in AWS, you can write a terraform configuration to automate this process rather than doing it manually from AWS console.</p>
             ]]>
