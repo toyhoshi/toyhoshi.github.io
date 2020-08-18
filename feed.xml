@@ -17,7 +17,7 @@
         <link href="https://toyhoshi.github.io/august-2020-whats-new.html"/>
         <id>https://toyhoshi.github.io/august-2020-whats-new.html</id>
 
-        <updated>2020-08-18T15:11:40+02:00</updated>
+        <updated>2020-08-18T15:18:31+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -90,7 +90,7 @@
             <category term="Orchestration"/>
             <category term="Automation"/>
 
-        <updated>2020-08-18T15:11:40+02:00</updated>
+        <updated>2020-08-18T15:18:31+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/6/AutomationVsOrchestration.png" alt="" />
@@ -155,7 +155,7 @@
         <id>https://toyhoshi.github.io/what-is-amazon-elastic-container-service.html</id>
             <category term="ECS"/>
 
-        <updated>2020-08-18T15:11:40+02:00</updated>
+        <updated>2020-08-18T15:18:31+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/5/ECS.png" alt="" />
@@ -185,7 +185,7 @@
             <category term="Fargate"/>
             <category term="ECS"/>
 
-        <updated>2020-08-18T15:11:40+02:00</updated>
+        <updated>2020-08-18T15:18:31+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/4/ECSvsFargate.jpeg" alt="" />
@@ -221,7 +221,7 @@
         <id>https://toyhoshi.github.io/why-use-infrastructure-as-code.html</id>
             <category term="IaC"/>
 
-        <updated>2020-08-18T15:11:40+02:00</updated>
+        <updated>2020-08-18T15:18:31+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/2/iac.png" alt="" />
@@ -262,7 +262,7 @@
         <id>https://toyhoshi.github.io/cloud-where-are-you.html</id>
             <category term="Kafka"/>
 
-        <updated>2020-08-18T15:11:40+02:00</updated>
+        <updated>2020-08-18T15:18:31+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/1/amazonn-msk.png" alt="" />
@@ -286,7 +286,7 @@
         <id>https://toyhoshi.github.io/what-is-a-terraform-and-infrastructure-as-code.html</id>
             <category term="IaC"/>
 
-        <updated>2020-08-18T15:11:40+02:00</updated>
+        <updated>2020-08-18T15:18:31+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://toyhoshi.github.io/media/posts/3/Terraform.png" alt="" />
