@@ -20,8 +20,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-08-18T16:56:30+02:00",
-            "date_modified": "2020-08-18T16:56:30+02:00"
+            "date_published": "2020-08-19T17:56:06+02:00",
+            "date_modified": "2020-08-19T17:56:06+02:00"
         },
         {
             "id": "https://clouday.dev/automation-vs-orchestration-whats-the-difference.html",
@@ -37,8 +37,8 @@
                    "Orchestration",
                    "Automation"
             ],
-            "date_published": "2020-08-18T16:56:30+02:00",
-            "date_modified": "2020-08-18T16:56:30+02:00"
+            "date_published": "2020-08-19T17:56:06+02:00",
+            "date_modified": "2020-08-19T17:56:06+02:00"
         },
         {
             "id": "https://clouday.dev/what-is-amazon-elastic-container-service.html",
@@ -53,8 +53,8 @@
             "tags": [
                    "ECS"
             ],
-            "date_published": "2020-08-18T16:56:30+02:00",
-            "date_modified": "2020-08-18T16:56:30+02:00"
+            "date_published": "2020-08-19T17:56:06+02:00",
+            "date_modified": "2020-08-19T17:56:06+02:00"
         },
         {
             "id": "https://clouday.dev/ecs-vs-fargate-whats-the-difference.html",
@@ -70,8 +70,8 @@
                    "Fargate",
                    "ECS"
             ],
-            "date_published": "2020-08-18T16:56:30+02:00",
-            "date_modified": "2020-08-18T16:56:30+02:00"
+            "date_published": "2020-08-19T17:56:06+02:00",
+            "date_modified": "2020-08-19T17:56:06+02:00"
         },
         {
             "id": "https://clouday.dev/why-use-infrastructure-as-code.html",
@@ -86,8 +86,8 @@
             "tags": [
                    "IaC"
             ],
-            "date_published": "2020-08-18T16:56:30+02:00",
-            "date_modified": "2020-08-18T16:56:30+02:00"
+            "date_published": "2020-08-19T17:56:06+02:00",
+            "date_modified": "2020-08-19T17:56:06+02:00"
         },
         {
             "id": "https://clouday.dev/cloud-where-are-you.html",
@@ -102,8 +102,8 @@
             "tags": [
                    "Kafka"
             ],
-            "date_published": "2020-08-18T16:56:30+02:00",
-            "date_modified": "2020-08-18T16:56:30+02:00"
+            "date_published": "2020-08-19T17:56:06+02:00",
+            "date_modified": "2020-08-19T17:56:06+02:00"
         },
         {
             "id": "https://clouday.dev/what-is-a-terraform-and-infrastructure-as-code.html",
@@ -118,8 +118,8 @@
             "tags": [
                    "IaC"
             ],
-            "date_published": "2020-08-18T16:56:30+02:00",
-            "date_modified": "2020-08-18T16:56:30+02:00"
+            "date_published": "2020-08-19T17:56:06+02:00",
+            "date_modified": "2020-08-19T17:56:06+02:00"
         }
     ]
 }
