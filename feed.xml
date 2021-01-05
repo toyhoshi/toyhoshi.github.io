@@ -3,24 +3,103 @@
     <title>clouday.dev</title>
     <link href="https://clouday.dev/feed.xml" rel="self" />
     <link href="https://clouday.dev" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2021-01-05T12:14:25+01:00</updated>
     <author>
         <name>Toyhoshi</name>
     </author>
     <id>https://clouday.dev</id>
 
     <entry>
-        <title>August 2020: what&#x27;s new</title>
+        <title>Crypto policies in RHEL 8.2</title>
+        <author>
+            <name>Toyhoshi</name>
+        </author>
+        <link href="https://clouday.dev/crypto-policies.html"/>
+        <id>https://clouday.dev/crypto-policies.html</id>
+
+        <updated>2021-01-05T12:14:25+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Across enterprise IT the security landscape is changing and attackers are coming up with more sophisticated attacks. The cryptographic algorithms&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Across enterprise IT the security landscape is changing and attackers are coming up with more sophisticated attacks. The cryptographic algorithms that might be robust and reliable today, may not necessarily be so tomorrow.</p>
+<p style="font-weight: 400;">In RHEL 8.2 to enable users to specify their own crypto policies if the built-in policies do not meet their requirements.</p>
+<p style="font-weight: 400;">As a refresher, system-wide crypto policies introduced in RHEL 8 are:</p>
+<ol style="font-weight: 400;">
+<li style="font-weight: var(--pfe-theme--font-weight--default,400);">Centrally managed on the system using a simple command to show the currently set system-wide crypto policy and update the system-wide crypto policy.$ update-crypto-policies --show DEFAULT<strong>Update the system-wide crypto policy to set the level to future</strong>$ update-crypto-policies --set FUTURE Setting system policy to FUTURE</li>
+<li style="font-weight: var(--pfe-theme--font-weight--default,400);"><strong>Show the system-wide crypto policy currently in effect </strong></li>
+<li style="font-weight: var(--pfe-theme--font-weight--default,400);">Effective across applications built using core cryptographic subsystems. For example, if your application leverages OpenSSL, or GnuTLS, these applications will be able to benefit from the RHEL crypto policies. </li>
+<li style="font-weight: var(--pfe-theme--font-weight--default,400);">Configurable to a particular predefined policy level. In RHEL 8, four policies are provided under the names "LEGACY", "DEFAULT", "FUTURE" and "FIPS". Detailed settings about each policy are <a href="https://access.redhat.com/articles/3642912">summarized in this post about strong crypto defaults in RHEL 8</a> and update-crypto-policies man pages.</li>
+</ol>
+<h3 dir="ltr">Modifying an existing crypto policy</h3>
+<p dir="ltr">To modify existing crypto policies, use policy modifier modules. These are text files that include policy instructions to the <code>update-crypto-policies</code> tool. </p>
+<p dir="ltr">The naming of these files must follow the following convention: <strong>&lt;MODULE&gt;.pmod</strong>, where <strong>&lt;MODULE&gt;</strong> is the name of the modifier in uppercase without spaces, and .pmod is the file extension in lowercase. </p>
+<p>The location of these files should be:</p>
+<p><code>/etc/crypto-policies/policies/modules</code> folder <span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">(or the </span><code style="font-weight: var(--font-weight-normal);">/usr/share/crypto-policies/policies/modules</code><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> folder if they are in installed packages).</span></p>
+<p> </p>
+<h3>SSL_ERROR_UNSUPPORTED_HASH_ALGORITHM</h3>
+<p>Try to revert back to legacy policy: <strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;">sudo update-crypto-policies --set LEGACY </span></strong></p>
+<p>To get <span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">the old policy, use: <strong>sudo update-crypto-policies --set DEFAULT:FEDORA32</strong> <br>To get back to current policy: <strong>sudo update-crypto-policies --set DEFAULT</strong></span></p>
+<p> </p>
+<p class="msg msg--success"><em><a href="#INTERNAL_LINK#/post/null" title="https://www.redhat.com/en/blog/how-customize-crypto-policies-rhel-82">https://www.redhat.com/en/blog/how-customize-crypto-policies-rhel-82</a></em></p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Service Discovery - Microservices on AWS</title>
+        <author>
+            <name>Toyhoshi</name>
+        </author>
+        <link href="https://clouday.dev/service-discovery-microservices-on-aws.html"/>
+        <id>https://clouday.dev/service-discovery-microservices-on-aws.html</id>
+
+        <updated>2021-01-05T11:58:10+01:00</updated>
+            <summary>
+                <![CDATA[
+                    The term "microservice architecture" is now commonly used to define the development of an application as a suite of small&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>The term "microservice architecture" is now commonly used to define the development of an application as a suite of small independent services that communicate with each other via some form of HTTP resource API.  </p>
+<p>One of the primary challenges with microservices architectures is allowing services to discover and interact with each other, thus was born the concept of service discovery: a concept where a service makes itself discoverable so that another service can call it by name without knowing its physical location or server address. </p>
+<p>There are three main approaches to service discovery used in the development community today:</p>
+<ul>
+<li>Server-side service discovery</li>
+<li>Client-side service discovery</li>
+<li>Service mesh</li>
+</ul>
+<p>The service-side approach is the simplest form of service discovery, each service sits behind a load balancer and client of the service use URI of the load balancer to invoke the service, it is the responsibility of the load balancer to maintain some sort of registry for storing information about different services.  An <em>AWS Elastic Load Balancer</em> (ELB) is an example of this approach.</p>
+<p>In client-side mode, it is the client that must take care of balancing and maintain the service registry which knows the locations of all service instances.  One example of this approach is <em>Netflix Eureka</em> with <a href="https://github.com/Netflix/ribbon"></a><em>Netflix Ribbo</em>n or <em>Hashicorp Consul</em> or <em>etcd.</em></p>
+<p>On the AWS side, there is also a dns-based service discovery: Amazon ECS now includes integrated service discovery that makes it easy for your containerized services to discover and connect with each other. Previously, to ensure that services were able to discover and connect with each other, you had to configure and run your own service discovery system based on Amazon Route 53, AWS Lambda, and ECS Event Stream, or connect every service to a load balancer.</p>
+<p>Amazon ECS creates and manages a registry of service names using the Route 53 Auto Naming API. Names are automatically mapped to a set of DNS records so that you can refer to a service by name in your code and write DNS queries to have the name resolve to the service’s endpoint at runtime. You can specify health check conditions in a service's task definition and Amazon ECS ensures that only healthy service endpoints are returned by a service lookup.</p>
+<p>Another option is to leverage the capabilities of AWS Cloud Map. AWS Cloud Map extends the capabilities of the Auto Naming APIs by providing a service registry for resources, such as IPs, URLs, and ARNs, and offering an API-based service discovery mechanism with a faster change propagation and the ability to use attributes to narrow down the set of discovered resources. Existing Route 53 Auto Naming resources are upgraded automatically to AWS Cloud Map.</p>
+<p>Finally we have the service mesh approach: service meshes are an additional layer for handling inter-service communication, which is responsible for monitoring and controlling traffic in microservice architectures. This allows tasks, like service discovery, to be completely handled by this layer.</p>
+<p>Typically, a service mesh is split into a data plane and a control plane. The data plane consists of a set of intelligent proxies that are deployed with the application code as a special sidecar proxy that intercepts all network communication between microservices. The control plane is responsible for communicating with the proxies.</p>
+<p>Service meshes are transparent, which means that application developers don’t have to be aware of this additional layer and don’t have to make changes to existing application code. AWS App Mesh is a service mesh that provides application-level networking to make it easy for your services to communicate with each other across multiple types of compute infrastructure. App Mesh standardizes how your services communicate, giving you end-to-end visibility and ensuring high availability for your applications.</p>
+<p>You can use AWS App Mesh with existing or new microservices running on AWS Fargate, Amazon ECS, Amazon EKS, and self-managed Kubernetes on AWS. App Mesh can monitor and control communications for microservices running across clusters, orchestration systems, or VPCs as a single application without any code changes.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>August 2020: what&#x27;s new at AWS</title>
         <author>
             <name>Toyhoshi</name>
         </author>
         <link href="https://clouday.dev/august-2020-whats-new.html"/>
         <id>https://clouday.dev/august-2020-whats-new.html</id>
 
-        <updated>2020-08-31T12:14:16+02:00</updated>
+        <updated>2020-11-29T12:48:05+01:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://clouday.dev/media/posts/7/whatsnew_aws.png" alt="" />
                 <div class="title-wrapper">
 <div class="row title">
 <div class="twelve columns">
@@ -90,7 +169,7 @@
             <category term="Orchestration"/>
             <category term="Automation"/>
 
-        <updated>2020-08-31T12:14:16+02:00</updated>
+        <updated>2020-08-15T16:09:52+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://clouday.dev/media/posts/6/AutomationVsOrchestration.png" alt="" />
@@ -155,7 +234,7 @@
         <id>https://clouday.dev/what-is-amazon-elastic-container-service.html</id>
             <category term="ECS"/>
 
-        <updated>2020-08-31T12:14:16+02:00</updated>
+        <updated>2020-08-15T16:10:58+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://clouday.dev/media/posts/5/ECS.png" alt="" />
@@ -185,7 +264,7 @@
             <category term="Fargate"/>
             <category term="ECS"/>
 
-        <updated>2020-08-31T12:14:16+02:00</updated>
+        <updated>2020-08-15T16:12:38+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://clouday.dev/media/posts/4/ECSvsFargate.jpeg" alt="" />
@@ -221,7 +300,7 @@
         <id>https://clouday.dev/why-use-infrastructure-as-code.html</id>
             <category term="IaC"/>
 
-        <updated>2020-08-31T12:14:16+02:00</updated>
+        <updated>2020-08-15T16:17:00+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://clouday.dev/media/posts/2/iac.png" alt="" />
@@ -262,16 +341,16 @@
         <id>https://clouday.dev/cloud-where-are-you.html</id>
             <category term="Kafka"/>
 
-        <updated>2020-08-31T12:14:16+02:00</updated>
+        <updated>2021-01-05T10:59:08+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://clouday.dev/media/posts/1/amazonn-msk.png" alt="" />
+                        <img src="https://clouday.dev/media/posts/1/unsplash-md-2.jpg" alt="" />
                      Amazon MSK is a fully managed service for Apache Kafka that makes it easy for you to build and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://clouday.dev/media/posts/1/amazonn-msk.png" alt="" />
+                    <img src="https://clouday.dev/media/posts/1/unsplash-md-2.jpg" alt="" />
                 <p class="align-center"><img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRXLrst9S_iKjPIQnxMxVQONXNfW7ja8xGm6g&amp;usqp=CAU" data-is-external-image="true"  alt="Let The Adventure Begin Coffee Mug - New Journey Gift ..."></p>
 <p>Amazon MSK is a fully managed service for Apache Kafka that makes it easy for you to build and run applications that use Apache Kafka as a data store. Amazon MSK is 100% compatible with Apache Kafka, which enables you to quickly migrate your existing Apache Kafka workloads to Amazon MSK with confidence or build new ones from scratch. With Amazon MSK, you spend more time innovating on applications and less time managing clusters. </p>
             ]]>
@@ -286,7 +365,7 @@
         <id>https://clouday.dev/what-is-a-terraform-and-infrastructure-as-code.html</id>
             <category term="IaC"/>
 
-        <updated>2020-08-31T12:14:16+02:00</updated>
+        <updated>2020-08-15T16:18:50+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://clouday.dev/media/posts/3/Terraform.png" alt="" />
