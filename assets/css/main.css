@@ -2628,8 +2628,6 @@ sup {
 }
 .post__image img {
   border-radius: 0.375em;
-  display: block;
-  width: 100%;
 }
 .post__image > figcaption {
   font-size: 0.8em;
@@ -2657,6 +2655,9 @@ sup {
   .post__image--center {
     margin: 2em auto;
   }
+}
+.post__image--center img {
+  display: inline-block;
 }
 .post__last-updated {
   font-size: 0.9em;
@@ -2761,6 +2762,44 @@ sup {
   height: 3em;
   width: 3em;
   margin-right: 1em;
+}
+.post__video, .post__iframe {
+  position: relative;
+  display: block;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+@media screen and (max-width: 736px) {
+  .post__video, .post__iframe {
+    margin-top: 2em auto;
+    margin-bottom: 2em auto;
+  }
+}
+.post__video::before, .post__iframe::before {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+.post__video--21by9::before, .post__iframe--21by9::before {
+  padding-top: 42.857143%;
+}
+.post__video--4by3::before, .post__iframe--4by3::before {
+  padding-top: 75%;
+}
+.post__video--1by1::before, .post__iframe--1by1::before {
+  padding-top: 100%;
+}
+.post__video > iframe, .post__video > video, .post__iframe > iframe, .post__iframe > video {
+  border: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .comments {
