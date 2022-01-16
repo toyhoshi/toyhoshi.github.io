@@ -3,7 +3,7 @@
     <title>www.clouday.dev</title>
     <link href="https://www.clouday.dev/feed.xml" rel="self" />
     <link href="https://www.clouday.dev" />
-    <updated>2021-08-28T14:47:30+02:00</updated>
+    <updated>2022-01-16T14:50:29+01:00</updated>
     <author>
         <name>Toyhoshi</name>
     </author>
@@ -18,17 +18,17 @@
         <id>https://www.clouday.dev/hello-kubernetes.html</id>
             <category term="Kubernetes"/>
 
-        <updated>2021-08-28T14:47:30+02:00</updated>
+        <updated>2022-01-16T14:50:29+01:00</updated>
             <summary>
                 <![CDATA[
-                    Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation.
+                    Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p>Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.</p>
 <p>The name Kubernetes originates from Greek, meaning helmsman or pilot. K8s as an abbreviation results from counting the eight letters between the "K" and the "s". Google open-sourced the Kubernetes project in 2014. Kubernetes combines <a href="https://kubernetes.io/blog/2015/04/borg-predecessor-to-kubernetes/">over 15 years of Google's experience</a> running production workloads at scale with best-of-breed ideas and practices from the community.</p>
-<p> </p>
+<hr>
 <p> </p>
             ]]>
         </content>
@@ -44,7 +44,7 @@
         <updated>2021-01-05T12:14:25+01:00</updated>
             <summary>
                 <![CDATA[
-                    Across enterprise IT the security landscape is changing and attackers are coming up with more sophisticated attacks. The cryptographic algorithms&hellip;
+                    Across enterprise IT the security landscape is changing and attackers are coming up with more&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -85,7 +85,7 @@
         <updated>2021-01-05T11:58:10+01:00</updated>
             <summary>
                 <![CDATA[
-                    The term "microservice architecture" is now commonly used to define the development of an application as a suite of small&hellip;
+                    The term "microservice architecture" is now commonly used to define the development of an application&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -197,7 +197,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://www.clouday.dev/media/posts/6/AutomationVsOrchestration.png" alt="" />
-                    Whether your applications and data are housed on-premise or in the cloud, automation and orchestration make complex business processes run&hellip;
+                    Whether your applications and data are housed on-premise or in the cloud, automation and orchestration&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -262,7 +262,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://www.clouday.dev/media/posts/5/ECS.png" alt="" />
-                     Amazon Elastic Container Service (Amazon ECS) is a highly scalable, fast, container management service that makes it easy to run,&hellip;
+                     Amazon Elastic Container Service (Amazon ECS) is a highly scalable, fast, container management service that&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -292,7 +292,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://www.clouday.dev/media/posts/4/ECSvsFargate.jpeg" alt="" />
-                    When discussing options to run Docker on AWS, I’m often asked about the differences between ECS and EKS or Kubernets. However, lately,&hellip;
+                    When discussing options to run Docker on AWS, I’m often asked about the differences between&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -328,7 +328,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://www.clouday.dev/media/posts/2/iac.png" alt="" />
-                    Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is&hellip;
+                    Infrastructure as code is the process of provisioning and managing your cloud resources by writing&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -369,7 +369,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://www.clouday.dev/media/posts/1/unsplash-md-2.jpg" alt="" />
-                     Amazon MSK is a fully managed service for Apache Kafka that makes it easy for you to build and&hellip;
+                     Amazon MSK is a fully managed service for Apache Kafka that makes it easy&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -393,7 +393,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://www.clouday.dev/media/posts/3/Terraform.png" alt="" />
-                    Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure resources. It is used to&hellip;
+                    Terraform is an open source tool built by Hashicorp to automate the provisioning of infrastructure&hellip;
                 ]]>
             </summary>
         <content type="html">
