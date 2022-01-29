@@ -12,7 +12,7 @@
         {
             "id": "https://www.clouday.dev/crossplaneio-assemble-infrastructure-from-multiple-vendors.html",
             "url": "https://www.clouday.dev/crossplaneio-assemble-infrastructure-from-multiple-vendors.html",
-            "title": "Crossplane.io: assemble infrastructure from multiple vendors",
+            "title": "Assemble infrastructure from multiple vendors",
             "summary": " Crossplane is an open source Kubernetes add-on that enables platform teams to assemble infrastructure from multiple vendors, and expose higher level self-service APIs for&hellip;",
             "content_html": "<p><img loading=\"lazy\" src=\"https://blog.upbound.io/content/images/2022/01/image.png\" data-is-external-image=\"true\" ></p>\n<p class=\"align-left\">Crossplane is an open source Kubernetes add-on that enables platform teams to assemble infrastructure from multiple vendors, and expose higher level self-service APIs for application teams to consume, without having to write any code.</p>\n<p class=\"align-left\">Crossplane extends your Kubernetes cluster, providing you with CRDs for any infrastructure or managed service. Compose these granular resources into higher level abstractions that can be versioned, managed, deployed and consumed using your favorite tools and existing processes you've already integrated with your clusters.</p>",
             "author": {
