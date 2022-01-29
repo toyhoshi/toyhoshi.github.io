@@ -14,8 +14,8 @@
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://www.clouday.dev/crossplaneio-assemble-infrastructure-from-multiple-vendors.html"/>
-        <id>https://www.clouday.dev/crossplaneio-assemble-infrastructure-from-multiple-vendors.html</id>
+        <link href="https://www.clouday.dev/crossplaneio-assemble-infrastructure-from-multiple-vendors/"/>
+        <id>https://www.clouday.dev/crossplaneio-assemble-infrastructure-from-multiple-vendors/</id>
             <category term="IaC"/>
 
         <updated>2022-01-30T16:29:00+01:00</updated>
@@ -39,8 +39,8 @@
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://www.clouday.dev/handling-aws-auth-in-eks-clusters.html"/>
-        <id>https://www.clouday.dev/handling-aws-auth-in-eks-clusters.html</id>
+        <link href="https://www.clouday.dev/handling-aws-auth-in-eks-clusters/"/>
+        <id>https://www.clouday.dev/handling-aws-auth-in-eks-clusters/</id>
 
         <updated>2022-01-29T16:25:58+01:00</updated>
             <summary>
@@ -470,8 +470,8 @@ eksctl create iamidentitymapping <span class="se">\</span>
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://www.clouday.dev/kubernetes-backup-and-restore-with-velero.html"/>
-        <id>https://www.clouday.dev/kubernetes-backup-and-restore-with-velero.html</id>
+        <link href="https://www.clouday.dev/kubernetes-backup-and-restore-with-velero/"/>
+        <id>https://www.clouday.dev/kubernetes-backup-and-restore-with-velero/</id>
 
         <updated>2022-01-29T16:11:06+01:00</updated>
             <summary>
@@ -499,8 +499,8 @@ eksctl create iamidentitymapping <span class="se">\</span>
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://www.clouday.dev/amazon-eks-distrop.html"/>
-        <id>https://www.clouday.dev/amazon-eks-distrop.html</id>
+        <link href="https://www.clouday.dev/amazon-eks-distrop/"/>
+        <id>https://www.clouday.dev/amazon-eks-distrop/</id>
             <category term="Kubernetes"/>
             <category term="EKS"/>
 
@@ -556,8 +556,8 @@ eksctl create iamidentitymapping <span class="se">\</span>
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://www.clouday.dev/what-is-a-terraform-and-infrastructure-as-code.html"/>
-        <id>https://www.clouday.dev/what-is-a-terraform-and-infrastructure-as-code.html</id>
+        <link href="https://www.clouday.dev/what-is-a-terraform-and-infrastructure-as-code/"/>
+        <id>https://www.clouday.dev/what-is-a-terraform-and-infrastructure-as-code/</id>
             <category term="IaC"/>
 
         <updated>2022-01-29T15:56:56+01:00</updated>
@@ -600,8 +600,8 @@ eksctl create iamidentitymapping <span class="se">\</span>
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://www.clouday.dev/hello-kubernetes.html"/>
-        <id>https://www.clouday.dev/hello-kubernetes.html</id>
+        <link href="https://www.clouday.dev/hello-kubernetes/"/>
+        <id>https://www.clouday.dev/hello-kubernetes/</id>
             <category term="Kubernetes"/>
 
         <updated>2022-01-29T15:55:57+01:00</updated>
@@ -626,8 +626,8 @@ eksctl create iamidentitymapping <span class="se">\</span>
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://www.clouday.dev/automation-vs-orchestration-whats-the-difference.html"/>
-        <id>https://www.clouday.dev/automation-vs-orchestration-whats-the-difference.html</id>
+        <link href="https://www.clouday.dev/automation-vs-orchestration-whats-the-difference/"/>
+        <id>https://www.clouday.dev/automation-vs-orchestration-whats-the-difference/</id>
             <category term="Orchestration"/>
             <category term="Automation"/>
 
@@ -692,8 +692,8 @@ eksctl create iamidentitymapping <span class="se">\</span>
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://www.clouday.dev/ecs-vs-fargate-whats-the-difference.html"/>
-        <id>https://www.clouday.dev/ecs-vs-fargate-whats-the-difference.html</id>
+        <link href="https://www.clouday.dev/ecs-vs-fargate-whats-the-difference/"/>
+        <id>https://www.clouday.dev/ecs-vs-fargate-whats-the-difference/</id>
             <category term="Fargate"/>
             <category term="ECS"/>
 
@@ -731,8 +731,8 @@ eksctl create iamidentitymapping <span class="se">\</span>
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://www.clouday.dev/what-is-amazon-elastic-container-service.html"/>
-        <id>https://www.clouday.dev/what-is-amazon-elastic-container-service.html</id>
+        <link href="https://www.clouday.dev/what-is-amazon-elastic-container-service/"/>
+        <id>https://www.clouday.dev/what-is-amazon-elastic-container-service/</id>
             <category term="ECS"/>
 
         <updated>2022-01-29T15:38:42+01:00</updated>
@@ -760,8 +760,8 @@ eksctl create iamidentitymapping <span class="se">\</span>
         <author>
             <name>Toyhoshi</name>
         </author>
-        <link href="https://www.clouday.dev/crypto-policies.html"/>
-        <id>https://www.clouday.dev/crypto-policies.html</id>
+        <link href="https://www.clouday.dev/crypto-policies/"/>
+        <id>https://www.clouday.dev/crypto-policies/</id>
 
         <updated>2022-01-29T15:54:34+01:00</updated>
             <summary>
